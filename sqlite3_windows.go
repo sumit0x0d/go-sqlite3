@@ -12,7 +12,6 @@ package sqlite3
 #cgo CFLAGS: -I.
 #cgo CFLAGS: -fno-stack-check
 #cgo CFLAGS: -fno-stack-protector
-#cgo CFLAGS: -mno-stack-arg-probe
 #cgo windows,386 CFLAGS: -D_USE_32BIT_TIME_T
 */
 import "C"
